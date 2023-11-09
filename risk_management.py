@@ -11,7 +11,6 @@ def ask_permission(risk):
     return True
 
 def main():
-    # Code to orchestrate the different components
     pass
 
 if __name__ == "__main__":

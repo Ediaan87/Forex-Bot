@@ -28,3 +28,10 @@ def execute_trade(trade):
     }
     r = OrderCreate("your_account_id", data=data)
     api.request(r)
+
+def get_trade_outcomes(trade):
+    outcomes = {
+        "wins": trade['wins'],
+        "losses": trade['losses']
+    }
+    return outcomes
